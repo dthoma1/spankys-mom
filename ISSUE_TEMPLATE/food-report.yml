@@ -1,0 +1,23 @@
+name: Bug Report
+about: File a bug report
+title: "[Bug]: "
+labels: "bug, triage"
+assignees: monalisa
+issue_body: true
+inputs:
+- type: description
+  attributes:
+    value: Thanks for taking the time to file a bug report! Please fill out this form as completely as possible.
+- type: input
+  attributes:
+    label: What version are you using?
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: What did you expect to happen?
+    required: true
+- type: textarea
+  attributes:
+    label: What actually happened?
+    required: true
